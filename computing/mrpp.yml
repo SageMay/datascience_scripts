@@ -1,0 +1,12 @@
+name: FOO
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib=3.8.4
+  - pandas=2.2.2
+  - python=3.12.4
+  - scipy=1.13.1
+  - seaborn=0.13.2
+  - statsmodels=0.14.2
+prefix: /opt/FOO

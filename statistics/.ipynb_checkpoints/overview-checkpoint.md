@@ -21,7 +21,7 @@ And an effect size called Cohen's d is used in the powerAnalysis notebook to est
 A core idea behind effect size is that the differences observed between two groups is normalized agains the standard deviation. 
 
 # 3. Power level
-In order to perform a power level, you will need to set a threshold beta, which is the liklihood of concluding there is no effect (null) when in reality there was an effect. 
+In order to perform a power analysis, you will need to set a threshold beta, which is the liklihood of concluding there is no effect (null) when in reality there was an effect. 
 This is a type II error, and usually, we are more lenient in allowing type II errors (falsely accepting the null hypothesis) than of falsely rejecting the null hypothesis.
 Commonly beta is chosen as .2 (or 20%), but this value may not be appropriate for your study and is grounded in the assumption that a type II error is not as serious as a type I error. 
 It is critical to think this through for each study -- are there large risks associated with type II error? 

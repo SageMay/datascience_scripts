@@ -21,16 +21,19 @@ And an effect size called Cohen's d is used in the powerAnalysis notebook to est
 A core idea behind effect size is that the differences observed between two groups is normalized agains the standard deviation. 
 
 # 3. Power level
-In order to perform a power level, you will need to set a threshold beta, which is the liklihood of concluding there is no effect (null) when in reality there was an effect. 
+In order to perform a power analysis, you will need to set a threshold beta, which is the liklihood of concluding there is no effect (null) when in reality there was an effect. 
 This is a type II error, and usually, we are more lenient in allowing type II errors (falsely accepting the null hypothesis) than of falsely rejecting the null hypothesis.
 Commonly beta is chosen as .2 (or 20%), but this value may not be appropriate for your study and is grounded in the assumption that a type II error is not as serious as a type I error. 
 It is critical to think this through for each study -- are there large risks associated with type II error? 
 For example, if you are designing software to identify potential tumors from imaging data, it would be far better to flag more images as potential tumors than to falsely accept the null (the null being that the tissue does not have a tumor). 
 A power analysis will help determine how many samples are needed -- it should be run at the beginning of a study and inform the study design, not performed after the study has been run. 
+
+# 4. p hacking
 And, we've all heard about p-hacking, where more samples are gathered just to achieve statistical significance. 
 It turns out this can be a challenge for MD data. 
 At times, we have so many individual data points that a statistical test shows a significant difference, but in reality, the effect size may be very small. 
-And, the physical changes in conformation may or may not be important to function, regardless of the statistical significance of the data. 
+And, the physical changes in conformation may or may not be important to function, regardless of the statistical significance of the data.
+
 
 
 # References
